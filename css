@@ -1,0 +1,169 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* General container for content */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Header Styles (Navigation Menu) */
+nav ul {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 1rem;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+#hero {
+  background-color: #3498db;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  font-size: 1.2rem;
+}
+
+/* About Section */
+#about {
+  padding: 50px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Skills Section */
+#skills {
+  padding: 50px 0;
+  background-color: #ecf0f1;
+}
+
+#skills h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill h3 {
+  font-size: 1.5rem;
+}
+
+.progress-bar {
+  height: 8px;
+  background-color: #3498db;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+/* Projects Section */
+#projects {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+#projects h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.project {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 1.2rem;
+}
+
+/* Contact Section */
+#contact {
+  padding: 50px 0;
+  background-color: #ecf0f1;
+}
+
+#contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#contact ul {
+  list-style: none;
+  text-align: center;
+}
+
+#contact ul li {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+#contact ul li a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: white;
+}
+
+footer p {
+  font-size: 1rem;
+}
